@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-blackwell-900 text-neutral-100 antialiased;
+}
+
+.glass-card {
+  @apply bg-blackwell-800/50 border border-neutral-800 rounded-xl backdrop-blur-sm;
+}
