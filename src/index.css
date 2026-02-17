@@ -1,11 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-blackwell-900: #0a0a0a;
+  --color-blackwell-800: #171717;
+  --color-blackwell-700: #262626;
+  --color-blackwell-gold: #c5a47e;
+}
+
+:root {
+  background-color: var(--color-blackwell-900);
+  color: #f5f5f5;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
 
 body {
-  @apply bg-blackwell-900 text-neutral-100 antialiased;
+  margin: 0;
 }
 
 .glass-card {
-  @apply bg-blackwell-800/50 border border-neutral-800 rounded-xl backdrop-blur-sm;
+  background-color: rgba(23, 23, 23, 0.5);
+  border: 1px solid #262626;
+  border-radius: 0.75rem;
+  backdrop-filter: blur(4px);
 }
