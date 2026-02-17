@@ -74,6 +74,7 @@ AMD's delay creates a 12-18 month monopoly. Our "Hard Asset" circularity is the 
                 { name: 'The Writer', role: 'Manuscript/Essays', status: 'Seeding', pulse: 'bg-purple-500' },
                 { name: 'Financier', role: 'Financial Models', status: 'Standby', pulse: 'bg-emerald-500' },
                 { name: 'Strategist', role: 'Deep Analysis', status: 'Standby', pulse: 'bg-blue-500' },
+                { name: 'Engineer', role: 'Vercel/GitHub Ops', status: 'Idle', pulse: 'bg-cyan-500' },
                 { name: 'Researcher', role: 'HSI Intelligence', status: 'Idle', pulse: 'bg-yellow-500' }
               ].map(agent => (
                 <div key={agent.name} className="flex items-center justify-between p-2 rounded-lg border border-transparent hover:border-neutral-800 hover:bg-white/5 transition-all">
